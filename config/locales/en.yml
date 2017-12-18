@@ -31,3 +31,74 @@
 
 en:
   hello: "Hello world"
+  success_signup: "Welcome to the Sample App!"
+  helper_tit: "Ruby on Rails Tutorial Sample App"
+  error_sign_up: "User not found"
+  error_login: "Invalid email/password combination"
+  static_pages:
+    home:
+      title: "Home"
+      h1: "Welcome to the Sample App"
+      h2: "This is the home page for the %{f_link} sample application."
+      f_href: "Ruby on Rails Tutorial"
+      link_to: "Sign up now!"
+      alt: "Rails logo"
+    about:
+      title: "About"
+      h1: "Sample App"
+      p_link: "The %{f_link} is a %{s_link} and %{t_link}
+              to teach web development with %{fo_link}.
+              This is the sample application for the tutorial."
+      f_href: "Ruby on Rails Tutorial"
+      s_href: "book"
+      t_href: "screencast series"
+      fo_href: "Ruby on Rails"
+    help:
+      title1: "Help"
+      title2: " | Ruby on Rails Tutorial Sample App"
+      h1: "help"
+      p_link: "Get help on the Ruby on Rails Tutorial at the %{f_link}.
+              To get help on this sample app, see the %{s_link}."
+      f_href: "Rails Tutorial help section"
+      s_href: "Ruby on Rails Tutorial book"
+    contact:
+      title: "Contact"
+      h1: "Contact"
+      p_link: "Contact the Ruby on Rails Tutorial about the sample app at the %{f_link} ."
+      f_href: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      h1: "Sign up"
+      confirm: "Confirmation"
+      submit: "Create my account"
+  layouts:
+    header:
+      link_app: "sample app"
+      link_home: "Home"
+      link_help: "Help"
+      link_lg: "Log in"
+      link_users: "Users"
+      link_acc: "Account"
+      link_profile: "Profile"
+      link_setting: "Settings"
+      link_logout: "Log out"
+    footer:
+      small: "The %{f_link} by %{s_link}"
+      f_href: "Ruby on Rails Tutorial"
+      s_href: "Michael Hartl"
+      link_about: "About"
+      link_contact: "Contact"
+      link_new: "New"
+  shared:
+    error_messages:
+      error_content: "The form contains"
+      error: "error"
+  sessions:
+    new:
+      login_tit: "Log in"
+      login_h1: "Log in"
+      login_sub: "Log in"
+      new_user: "New user? %{signup_link}"
+      signup: "Sign up now!"
+
